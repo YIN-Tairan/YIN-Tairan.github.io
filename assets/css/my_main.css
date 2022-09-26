@@ -1,0 +1,16 @@
+/* A title format that aligns the title to the left  */
+
+
+ty_h {margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;}
+
+ty_h {
+    color: #ff0000;
+    font-weight: 300;
+    line-height: 1em;
+    margin: 0 0 1em 0;
+}
