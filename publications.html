@@ -21,12 +21,16 @@
 <body class="publication page">
     <div id="page-wrapper">
         <!-- div seems to be useless -->
-        <header id="header">    <!-- id is the most useful param -->
+        <header id="header">
+            <!-- id is the most useful param -->
             <!-- Header is used for the navigation bar on the top of the site -->
-            <h1 id="logo"><a href="index.html">Logo</a></h1>
+            <h1 id="logo"><a href="index.html"><img src="images/logo_1.png" /></a></h1>
+            <!-- TODO: maybe add logo? -->
             <nav id="nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <!--
                     <li>
                         <a href="#">Layouts</a>
                         <ul>
@@ -46,21 +50,65 @@
                     </li>
                     <li><a href="elements.html">Elements</a></li>
                     <li><a href="publications.html" class="button primary">Publications</a></li>
+                -->
                 </ul>
             </nav>
         </header>
 
-        
+
 
     </div>
 
     <section id="publication content">
-        <!-- Section seems to be useless -->
-        <div class="content">
-            <header>
-                <h2>Publications</h2>
-            </header>
-            <p>Hehe I have updated nothing, if you don't see any link in this page, it's not because your Wi-Fi is bad.</p>
+        <!-- Section: still seems to be use less -->
+        <div id="main" class="wrapper style1"> <!-- Either "main" or wrapper "style", is very important -->
+            <div class="content">
+                <!-- TODO: add indent to this page-->
+                <div class="container">
+                    <header class="major">
+                        <h2>Publication</h2>
+                    </header>
+                    <section>
+                        <!--h2>Journal Papers</h2-->
+                        <h3>2022</h3>
+                        <h4>T. Yin, L. Hoyet, M. Christie, M. -P. Cani and J. Pettré, "The One-Man-Crowd: Single User Generation of Crowd Motions
+                            Using Virtual Reality," in IEEE Transactions on Visualization and Computer Graphics, vol. 28, no. 5, pp. 2245-2255,
+                            May 2022, doi: 10.1109/TVCG.2022.3150507.</h4>
+                    </section>  
+                </div>
+                <!--TODO: merge the following part into the above part-->
+                <!--TODO: understand how the layout works-->
+                <div class="col-4 col-12-medium">
+                    <p>
+                        </p>
+                    <p>Abstract: Crowd motion data is fundamental for understanding and simulating realistic crowd
+                        behaviours. Such data
+                        is usually collected through controlled experiments to ensure that both desired individual
+                        interactions and
+                        collective behaviours can be observed. It is however scarce, due to ethical concerns and logistical
+                        difficulties
+                        involved in its gathering, and only covers a few typical crowd scenarios. In this work, we propose
+                        and evaluate
+                        a novel Virtual Reality based approach lifting the limitations of real-world experiments for the
+                        acquisition of
+                        crowd motion data. Our approach immerses a single user in virtual scenarios where he/she
+                        successively acts each
+                        crowd member. By recording the past trajectories and body movements of the user, and displaying them
+                        on virtual
+                        characters, the user progressively builds the overall crowd behaviour by him/herself. We validate
+                        the
+                        feasibility of our approach by replicating three real experiments, and compare both the resulting
+                        emergent
+                        phenomena and the individual interactions to existing real datasets. Our results suggest that
+                        realistic
+                        collective behaviours can naturally emerge from virtual crowd data generated using our approach,
+                        even though the
+                        variety in behaviours is lower than in real situations. These results provide valuable insights to
+                        the building
+                        of virtual crowd experiences, and reveal key directions for further improvements.</p>
+                    <p>URL: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9714119&isnumber=9754282</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -75,7 +123,8 @@
             <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
         </ul>
         <ul class="copyright">
-            <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+            <li>&copy; Untitled. All rights reserved.</li>
+            <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
         </ul>
     </footer>
 
